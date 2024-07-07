@@ -20,5 +20,5 @@ A simple countdown timer built with HTML, CSS, and JavaScript.
 - Click the **Continue** button to resume the countdown.
 - Click the **Reset** button to reset the countdown to zero.
 
-**Project Link** : 
+**Project Link** : https://heartfelt-biscotti-485dea.netlify.app/
 
