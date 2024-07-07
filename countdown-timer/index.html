@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body style="position: relative; width: 100%; height: 100vh;">
+
+    <div class="clock-wrapper">
+        <h3>Countdown Timer</h3>
+        <div class="clock-boxes">
+            <div class="clock-box">
+                <div class="heading">Hours</div>
+                <div class="value hour">00</div>
+            </div>
+            <div class="partition">
+                <div class="value">:</div>
+            </div>
+            <div class="clock-box">
+                <div class="heading">Minutes</div>
+                <div class="value minute">00</div>
+            </div>
+            <div class="partition">
+                <div class="value">:</div>
+            </div>
+            <div class="clock-box">
+                <div class="heading">Seconds</div>
+                <div class="value second">00</div>
+            </div>
+        </div>
+        <div class="clock-CTA">
+            <button class="start">Start</button>
+            <button class="stop hide">Stop</button>
+            <button class="continue hide">Continue</button>
+            <button class="reset">Reset</button>
+        </div>
+        
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
