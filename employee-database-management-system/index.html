@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body style="position: relative;">
+    <header style="">
+        <div class="header__container">
+            <div class="heading">Employee Database Management System</div>
+            <button class="addEmployee_button">Add Employee</button>
+        </div>
+    </header>
+
+    <section class="hero-wrapper">
+        <div class="hero-container">
+            <div class="employee-list">
+                <div class="employee-list__heading">
+                    Employee List
+                </div>
+                <div class="employee-list__employee-cards">
+                    <!-- <div class="employee-card active">
+                        <div class="name">Dell Kris</div>
+                        <div class="delete">❌</div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="employee-info">
+                <div class="employee-info__heading">
+                    Employee Information
+                </div>
+                <div class="employee-info__content">
+                    <!-- <div class="profile"></div>
+                    <div class="name">Dell Kris</div>
+                    <div class="address">Address1</div>
+                    <div class="email">test@altfspaces.com</div>
+                    <div class="contact"> Mobile - 9988776655</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="popupForm_wrapper">
+        <div class="popupForm_container">
+            <div class="title"></div>
+            <form class="addEmployeeForm">
+                <div class="topField">   
+                    <input name="firstName" type="text" placeholder="First name"/>
+
+                    <input name="lastName" type="text" placeholder="Last name"/>
+                </div>
+                
+                <input name="imageUrl" type="text" placeholder="Image (Optional)"/>
+
+                <input name="email" type="email" placeholder="Email"/>
+
+                <input name="contactNumber" type="number" placeholder="Contact"/>
+
+                <input name="salary" type="text" placeholder="Salary"/>
+
+                <input name="address" type="text" placeholder="Address"/>
+
+                <input name="dob" type="date" />
+
+                <button class="addEmployeeSubmit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

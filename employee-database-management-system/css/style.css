@@ -1,0 +1,186 @@
+.header__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.header__container .heading{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2b2e35;
+}
+
+.header__container button{
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.hero-wrapper{
+
+}
+
+.hero-container{
+    border: 2px solid rgba(43, 46, 53, 0.75);
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.employee-list{
+    width: 40%;
+    padding: 1rem;
+    max-height: 410px;
+    overflow-y: scroll;
+    
+}
+
+.employee-info{
+    border-left: 2px solid rgba(43, 46, 53, 0.75);
+    width: 60%;
+    padding: 1rem;
+}
+
+.employee-list .employee-list__heading,
+.employee-info .employee-info__heading{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #2b2e35;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(43, 46, 53, 0.75);
+    
+}
+
+.employee-list__employee-cards .active{
+    background-color: #f0f0f0;
+    border: none !important;
+}
+
+.employee-list .employee-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(43, 46, 53, 0.75);
+    margin-top: 0.75rem;
+    padding: 0.85rem;
+    border-radius: 0.5rem;
+}
+
+.employee-list .employee-card .name{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.employee-list .employee-card .delete{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ###############     Employee Information starts here    ############### */
+
+.employee-info__content{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.employee-info__content .profile{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.employee-info__content .name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2b2e35;
+    margin: 0.5rem 0;
+}
+
+.employee-info__content .address{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2b2e35;
+    margin: 0.5rem 0;
+}
+
+.employee-info__content .email{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2b2e35;
+    margin: 0.5rem 0;
+}
+
+.employee-info__content .contact{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2b2e35;
+    margin: 0.5rem 0;
+    margin-bottom: 0;
+}
+
+/* ###############     Employee Information ends here    ############### */
+
+.popupForm_wrapper{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.popupForm_container{
+    width: 550px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+
+
+}
+
+.popupForm_container .topField{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popupForm_container .topField input{
+    width: 48%;
+}
+
+.popupForm_container input{
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.popupForm_container button{
+    width: 100%;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+    background-color: #f0f0f0;
+}
